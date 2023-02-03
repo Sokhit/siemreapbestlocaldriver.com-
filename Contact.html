@@ -168,16 +168,16 @@ input[type=submit]:hover {
                         <div class="container">
                           <form action="mailto:cheachy89@gmail.com" method="post" enctype="text/plain">
                         
-                            <label for="fname">Name</label>
+                            <label for="fname" required="">Name</label>
                             <input type="text" id="fname" name="name" placeholder="Your name" required="">
 
-                            <label for="fname">Phone Number</label>
+                            <label for="fname" required="">Phone Number</label>
                             <input type="tel" id="lname" name="tel" placeholder="Your Phone Number">
                     
                             <label for="date">Service Date (required)</label>
                             <input type="date" id="lname" name="date" placeholder="Your booking date" required="">
                         
-                            <label for="country" required="">Service Types (required)</label>
+                            <label for="service" required="">Service Types (required)</label>
                             <select id="service" name="service">
                               <option value="Select Service Types">Select Service Types</option>
                               <option value="5$ (USD) pick up from Airport to the hotel/guest house in town">5$ (USD) pick up from Airport to the hotel/guest house in town</option>
@@ -190,7 +190,7 @@ input[type=submit]:hover {
                               <option value="40$ (USD)  Beng Mealea temple">40$ (USD)  Beng Mealea temple</option>
                             </select>
                         
-                            <label for="message">Message</label>
+                            <label for="message" required="">Message</label>
                             <textarea placeholder="Enter your message" rows="4" cols="50" id="message-e2a4" name="message" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white"></textarea>
                         
                             <input type="submit" value="Submit">
